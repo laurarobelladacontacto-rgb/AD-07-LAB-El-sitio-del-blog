@@ -112,3 +112,13 @@ footer a {
 main a {
   color: #4a6b59;
 }
+
+@media (max-width: 700px) {
+  .seccion {
+    flex-direction: column;
+  }
+
+  .seccion img {
+    width: 100%;
+  }
+}
